@@ -1,0 +1,18 @@
+[{
+  "_id": {
+    "$oid": "66b8ef03e58c1dee2474a4fa"
+  },
+  "username": "lmao",
+  "password": "$2a$10$bkbQh/yQxwv6n9EwbdVtKOrQ27YpRbY6g74IUHuhJQn41pX/yEibS",
+  "role": "customer",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66b971026ac133e90e467bb2"
+  },
+  "username": "adminuser",
+  "password": "$2a$10$OGdolUude5HyerHJQX2AzORiZr58jCZA4o5K5lA/KmNg44s.4903e",
+  "role": "admin",
+  "__v": 0
+}]

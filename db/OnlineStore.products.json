@@ -1,0 +1,865 @@
+[{
+  "_id": {
+    "$oid": "66b5bb8478e899db8feee1ad"
+  },
+  "id": "64b8e77f7b4f0106c4f839ea",
+  "name": "Nintendo Switch OLED Mario Red Edition",
+  "description": "Warp into a world of games with the Nintendo Switch OLED Model: Mario Red Edition system. This limited-edition system features a console, dock, and Joy-Con™ controllers all in the iconic Mario Red color. A silhouette design of Mario jumps into action on the back of the dock. Look closely, and you’ll also find some hidden coins!",
+  "price": 33.99,
+  "category": "Nintendo",
+  "stock": 550,
+  "images": [
+    "http://bizweb.dktcdn.net/thumb/grande/100/088/342/products/may-mario-copy.jpg?v=1697021163787",
+    "http://bizweb.dktcdn.net/thumb/grande/100/088/342/products/red-oled-copy.jpg?v=1697085914140"
+  ],
+  "createdAt": {
+    "$date": "2023-08-07T00:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-07T00:00:00.000Z"
+  },
+  "promotion": "New arrival",
+  "subCategory": "Consoles"
+},
+{
+  "_id": {
+    "$oid": "66b5bb8478e899db8feee1ae"
+  },
+  "id": "64b8e77f7b4f0106c4f839eb",
+  "name": "PlayStation 5 Digital Edition",
+  "description": "The PS5® Digital Edition* unleashes new gaming possibilities that you never anticipated.\n\nExperience lightning-fast loading with an ultra-high-speed SSD, deeper immersion with support for haptic feedback, adaptive triggers and 3D Audio** and an all-new generation of incredible PlayStation® games.\n\nPS5 Digital Edition is an all-digital version of the PS5 console with no disc drive. Sign into your account for PlayStation Network and go to PlayStation®Store to buy and download games***.",
+  "price": 499.99,
+  "category": "PlayStation",
+  "stock": 320,
+  "images": [
+    "https://bizweb.dktcdn.net/100/088/342/products/brand-new-digital-ps5-japan-ve-1649068558-19b130ad-progressive-copy-98f6a8bf-6616-4aa4-9dcd-888a0f40fde8.jpg?v=1656567111760",
+    "https://bizweb.dktcdn.net/100/088/342/products/ps5-slim-d2585c69-4a81-4e53-848e-a210782ef189-930a8c39-b5d8-47db-a125-5379daf73214.png?v=1717744091307"
+  ],
+  "createdAt": "2023-08-07",
+  "updatedAt": "2023-08-07",
+  "promotion": "Sale",
+  "subCategory": "Consoles"
+},
+{
+  "_id": {
+    "$oid": "66b5bb8478e899db8feee1af"
+  },
+  "id": "64b8e77f7b4f0106c4f839ec",
+  "name": "Xbox Series X",
+  "description": "XBOX SERIES X: The fastest, most powerful Xbox ever. Explore rich new worlds with 12 teraflops of raw graphic processing power, DirectX ray tracing, a custom SSD, and 4K gaming.\nFASTER LOAD TIMES: Make the most of every gaming minute with Quick Resume, lightning-fast load times, and gameplay of up to 120 FPS – all powered by Xbox Velocity Architecture.\n",
+  "price": 499.99,
+  "category": "Xbox",
+  "stock": 250,
+  "images": [
+    "https://assets.xboxservices.com/assets/bc/40/bc40fdf3-85a6-4c36-af92-dca2d36fc7e5.png?n=642227_Hero-Gallery-0_A1_857x676.png",
+    "https://m.media-amazon.com/images/I/71ut3JnAiUL._SX522_.jpg"
+  ],
+  "createdAt": "2023-08-07",
+  "updatedAt": "2023-08-07",
+  "promotion": "Best seller",
+  "subCategory": "Consoles"
+},
+{
+  "_id": {
+    "$oid": "66b5bb8478e899db8feee1b0"
+  },
+  "id": "64b8e77f7b4f0106c4f839ed",
+  "name": "Nintendo Switch Lite",
+  "description": "Description for product 3",
+  "price": 199.99,
+  "color": [
+    "Yellow",
+    "Gray",
+    "Turquoise"
+  ],
+  "category": "Nintendo",
+  "stock": 500,
+  "images": [
+    "https://bizweb.dktcdn.net/100/088/342/products/nintendo-switch-lite-seryj.jpg?v=1568197495247",
+    "https://bizweb.dktcdn.net/100/088/342/products/nintendo-switch-lite-turquoise-console-1024x.jpg?v=1568197430967"
+  ],
+  "color_image": [
+    "https://bizweb.dktcdn.net/100/088/342/products/nintendo-switch-lite-seryj.jpg?v=1568197495247",
+    "https://bizweb.dktcdn.net/100/088/342/products/nintendo-switch-lite-turquoise-console-1024x.jpg?v=1568197430967"
+  ],
+  "createdAt": "2023-08-07",
+  "updatedAt": "2023-08-07",
+  "promotion": null,
+  "subCategory": "Consoles"
+},
+{
+  "_id": {
+    "$oid": "66b5bb8478e899db8feee1b1"
+  },
+  "id": "64b8e77f7b4f0106c4f839ee",
+  "name": "Sony DualSense Wireless Controller",
+  "description": "The DualSense wireless controller for PS5 consoles offers immersive haptic feedback2, dynamic adaptive triggers2 and a built-in microphone, all integrated into an iconic design.",
+  "price": 69.9,
+  "category": "PlayStation",
+  "stock": 7,
+  "images": [
+    "https://product.hstatic.net/200000275073/product/1600362361_1595096_17eb52ef00144889aaf6360a9101c80c_grande.jpg",
+    "https://gmedia.playstation.com/is/image/SIEPDC/dualsense-adaptive-triggers-image-block-01-en-30aug23?$1600px--t$"
+  ],
+  "createdAt": {
+    "$date": "2023-08-07T00:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-13T05:50:20.433Z"
+  },
+  "promotion": "New arrival",
+  "subCategory": "Accessories",
+  "reviews": []
+},
+{
+  "_id": {
+    "$oid": "66b5bb8478e899db8feee1b2"
+  },
+  "id": "64b8e77f7b4f0106c4f839ef",
+  "name": "Xbox Wireless Controller",
+  "description": "Experience the modernized design of the Xbox Wireless Controller, featuring sculpted surfaces and refined geometry for enhanced comfort during gameplay. Stay on target with textured grip and a hybrid D-pad. Seamlessly capture and share content with a dedicated Share button. Quickly pair with, play on, and switch between devices including Xbox Series X|S, Xbox One, Windows PC, Android, and iOS",
+  "price": 59.99,
+  "category": "Xbox",
+  "stock": 8,
+  "images": [
+    "https://assets.xboxservices.com/assets/55/83/55836945-e141-4d47-9dad-21d902948816.jpg?n=111101_Gallery-0_1_1350x759.jpg",
+    "https://assets.xboxservices.com/assets/17/fe/17fe66c7-f8d3-4325-8a71-1511a15615fb.jpg?n=111101_Gallery-0_2_1350x759.jpg"
+  ],
+  "createdAt": "2023-08-07",
+  "updatedAt": "2023-08-07",
+  "promotion": "Sale",
+  "subCategory": "Accessories"
+},
+{
+  "_id": {
+    "$oid": "66b5bb8478e899db8feee1b3"
+  },
+  "id": "64b8e77f7b4f0106c4f839f0",
+  "name": "Nintendo Switch Pro Controller",
+  "description": "Includes motion controls, HD rumble, built-in amiibo™ functionality, and more.\n\namiibo not included.",
+  "price": 69.99,
+  "category": "Nintendo",
+  "stock": 650,
+  "images": [
+    "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_656/b_white/f_auto/q_auto/ncom/en_US/products/accessories/nintendo-switch/controllers/pro-controllers/nintendo-switch-pro-controller/104888-nintendo-switch-pro-controller-black-package-1200x675",
+    "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/c_scale,w_700/ncom/en_US/products/accessories/nintendo-switch/controllers/pro-controllers/nintendo-switch-pro-controller/104888-nintendo-switch-pro-controller-black-angle-1200x675"
+  ],
+  "createdAt": "2023-08-07",
+  "updatedAt": "2023-08-07",
+  "promotion": "Best seller",
+  "subCategory": "Games"
+},
+{
+  "_id": {
+    "$oid": "66b5bb8478e899db8feee1b4"
+  },
+  "id": "64b8e77f7b4f0106c4f839f1",
+  "name": "PlayStation 5 Pulse 3D Wireless Headset",
+  "description": "Enjoy a seamless, wireless experience with a headset fine-tuned for 3D Audio on both PS4 and PS5 consoles1. The PULSE 3D wireless headset features a refined design with dual noise-cancelling microphones, USB Type-C® charging, and an array of easy-access controls.",
+  "price": 99.99,
+  "category": "PlayStation",
+  "stock": 400,
+  "images": [
+    "https://gmedia.playstation.com/is/image/SIEPDC/3d-pulse-gray-camo-screenshot-04-en-06sep22?$1600px$",
+    "https://gmedia.playstation.com/is/image/SIEPDC/3d-pulse-gray-camo-screenshot-01-en-06sep22?$1600px$"
+  ],
+  "createdAt": "2023-08-07",
+  "updatedAt": "2023-08-07",
+  "promotion": null,
+  "subCategory": "Accessories"
+},
+{
+  "_id": {
+    "$oid": "66b5bb8478e899db8feee1b5"
+  },
+  "id": "64b8e77f7b4f0106c4f839f2",
+  "name": "Xbox Series S",
+  "description": "Go all digital with Xbox Series S and experience next-gen speed and performance at a great price.\nBundle includes: Xbox Series S console, one Xbox Wireless Controller, a high-speed HDMI cable, power cable, and 2 AA batteries.\nMake the most of every gaming minute with Quick Resume, lightning-fast load times, and gameplay of up to 120 FPS—all powered by Xbox Velocity Architecture.\nAccess and stream your favorite entertainment in 4K through apps like, Netflix, Disney+, Amazon and more.\nAdd Xbox Game Pass Ultimate (membership sold separately) to play new games on day one. Plus, enjoy hundreds of high-quality games like Minecraft, Forza Horizon 5, and Halo Infinite with friends on console, PC, and cloud.",
+  "price": 299.99,
+  "category": "Xbox",
+  "stock": 350,
+  "images": [
+    "https://assets.xboxservices.com/assets/bf/b0/bfb06f23-4c87-4c58-b4d9-ed25d3a739b9.png?n=389964_Hero-Gallery-0_A1_857x676.png",
+    "https://m.media-amazon.com/images/I/61RpgPheRpL._SX522_.jpg"
+  ],
+  "createdAt": "2023-08-07",
+  "updatedAt": "2023-08-07",
+  "promotion": "New arrival",
+  "subCategory": "Consoles"
+},
+{
+  "_id": {
+    "$oid": "66b5bb8478e899db8feee1b6"
+  },
+  "id": "64b8e77f7b4f0106c4f839f3",
+  "name": "Nintendo Switch Joy-Con Controllers",
+  "description": "One controller or two, vertical or sideways, motion controls or buttons…Joy‑Con and Nintendo Switch™ give you total gameplay flexibility.\n\nGames come to life through easy-to-use motion controls and HD rumble—advanced vibration features built into each Joy‑Con. Depending on the game, you might use a single Joy‑Con in each hand—or even give the second one to a friend.",
+  "price": 79.99,
+  "category": "Nintendo",
+  "stock": 800,
+  "images": [
+    "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_656/b_white/f_auto/q_auto/ncom/en_US/products/accessories/nintendo-switch/controllers/joy-con-controllers/joy-con-neon-red-neon-blue/104882-nintendo-switch-joy-con-red-blue-package-1200x675",
+    "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_656/b_white/f_auto/q_auto/ncom/My%20Nintendo%20Store/EN-US/Nintendo%20Switch%20Accessories/Controllers/joy-con-l-r-pastel-pink-pastel-yellow-117077/117077-nintendo-switch-joy-con-set-pastel-pink-l-pastel-yellow-r-box-1200x675"
+  ],
+  "createdAt": "2023-08-07",
+  "updatedAt": "2023-08-07",
+  "promotion": "Best seller",
+  "subCategory": "Games"
+},
+{
+  "_id": {
+    "$oid": "66b5bb8478e899db8feee1b7"
+  },
+  "id": "64b8e77f7b4f0106c4f839f4",
+  "name": "PlayStation 5 Media Remote",
+  "description": "Conveniently navigate entertainment1 on your PlayStation®5 console with intuitive media and TV controls.\nPower on your PS5 console and navigate its menus directly with the remote for ultimate convenience.",
+  "price": 29.99,
+  "category": "PlayStation",
+  "stock": 500,
+  "images": [
+    "https://gmedia.playstation.com/is/image/SIEPDC/media-remote-image-block-ps5-02-en-17jul20?$1600px--t$",
+    "https://gmedia.playstation.com/is/image/SIEPDC/media-remote-thumbnail-ps5-01-en-17jul20?$1600px$"
+  ],
+  "createdAt": "2023-08-07",
+  "updatedAt": "2023-08-07",
+  "promotion": "Sale",
+  "subCategory": "Accessories"
+},
+{
+  "_id": {
+    "$oid": "66b5bb8478e899db8feee1c0"
+  },
+  "id": "64b8e77f7b4f0106c4f839f5",
+  "name": "The Legend of Zelda: Breath of the Wild",
+  "description": "Explore the vast world of Hyrule in The Legend of Zelda: Breath of the Wild. Embark on an epic journey filled with adventure, puzzles, and battles against formidable foes.",
+  "price": 59.99,
+  "category": "Nintendo",
+  "stock": 300,
+  "images": [
+    "https://m.media-amazon.com/images/I/81KGsbq8ekL._SY500_.jpg",
+    "https://m.media-amazon.com/images/I/81dXlbXrLML._SY500_.jpg"
+  ],
+  "createdAt": {
+    "$date": "2023-08-07T00:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-07T00:00:00.000Z"
+  },
+  "promotion": "New arrival",
+  "subCategory": "Games"
+},
+{
+  "_id": {
+    "$oid": "66b5bb8478e899db8feee1c1"
+  },
+  "id": "64b8e77f7b4f0106c4f839f6",
+  "name": "Spider-Man: Miles Morales",
+  "description": "Step into the suit of Miles Morales as Spider-Man and experience his unique powers in this thrilling adventure through New York City.",
+  "price": 49.99,
+  "category": "Playstation",
+  "stock": 150,
+  "images": [
+    "https://m.media-amazon.com/images/I/81k2F67bOfL._SX425_.jpg",
+    "https://m.media-amazon.com/images/I/81L0X99ZEOL._SX522_.jpg"
+  ],
+  "createdAt": "2023-08-07",
+  "updatedAt": "2023-08-07",
+  "promotion": "Best seller",
+  "subCategory": "Games"
+},
+{
+  "_id": {
+    "$oid": "66b5bb8478e899db8feee1c2"
+  },
+  "id": "64b8e77f7b4f0106c4f839f7",
+  "name": "Halo Infinite",
+  "description": "Join Master Chief in the latest installment of the Halo series. Fight against a new enemy faction and explore the expansive open world of Zeta Halo.",
+  "price": 59.99,
+  "category": "Xbox",
+  "stock": 200,
+  "images": [
+    "https://m.media-amazon.com/images/I/51f1yqW0d-L._SY430_SX215_QL70_FMwebp_.jpg",
+    "https://m.media-amazon.com/images/I/71HlMT+5s6L._SX522_.jpg"
+  ],
+  "createdAt": "2023-08-07",
+  "updatedAt": "2023-08-07",
+  "promotion": "Sale",
+  "subCategory": "Games"
+},
+{
+  "_id": {
+    "$oid": "66b5bb8478e899db8feee1c3"
+  },
+  "id": "64b8e77f7b4f0106c4f839f8",
+  "name": "Forza Horizon 5",
+  "description": "Experience the thrill of driving in the open world of Mexico. Forza Horizon 5 offers breathtaking scenery and a vast collection of cars to drive.",
+  "price": 49.99,
+  "category": "Xbox",
+  "stock": 180,
+  "images": [
+    "https://m.media-amazon.com/images/I/81gIrDXDOCL._SX522_.jpg",
+    "https://m.media-amazon.com/images/I/81NsVlsj-lL._SX522_.jpg"
+  ],
+  "createdAt": "2023-08-07",
+  "updatedAt": "2023-08-07",
+  "promotion": "New arrival",
+  "subCategory": "Games"
+},
+{
+  "_id": {
+    "$oid": "66b5bb8478e899db8feee1c4"
+  },
+  "id": "64b8e77f7b4f0106c4f839f9",
+  "name": "Ratchet & Clank: Rift Apart",
+  "description": "Join Ratchet and Clank on a multiverse-spanning adventure with stunning visuals and high-speed gameplay. Battle against the evil Emperor Nefarious and save the multiverse.",
+  "price": 69.99,
+  "category": "Playstation",
+  "stock": 220,
+  "images": [
+    "https://m.media-amazon.com/images/I/8163O-hji+S._SX385_.jpg",
+    "https://m.media-amazon.com/images/I/81M6nGnBiOL._SX522_.jpg"
+  ],
+  "createdAt": "2023-08-07",
+  "updatedAt": "2023-08-07",
+  "promotion": "Best seller",
+  "subCategory": "Games"
+},
+{
+  "_id": {
+    "$oid": "66b5bb8478e899db8feee1c5"
+  },
+  "id": "64b8e77f7b4f0106c4f839fa",
+  "name": "Animal Crossing: New Horizons",
+  "description": "Build your perfect island getaway in Animal Crossing: New Horizons. Customize your home and island, make new friends, and enjoy seasonal events.",
+  "price": 59.99,
+  "category": "Nintendo",
+  "stock": 400,
+  "images": [
+    "https://m.media-amazon.com/images/I/71OK4b-WkRS._AC_UY218_.jpg",
+    "https://m.media-amazon.com/images/I/81FsAwElwBL._AC_UY218_.jpg"
+  ],
+  "createdAt": "2023-08-07",
+  "updatedAt": "2023-08-07",
+  "promotion": "Sale",
+  "subCategory": "Games"
+},
+{
+  "_id": {
+    "$oid": "66b5bb8478e899db8feee1c6"
+  },
+  "id": "64b8e77f7b4f0106c4f839fb",
+  "name": "Deathloop",
+  "description": "In Deathloop, you are caught in a time loop on an island where every day is a repeat. Use your skills to uncover the mystery and break the loop.",
+  "price": 39.99,
+  "category": "Playstation",
+  "stock": 160,
+  "images": [
+    "https://m.media-amazon.com/images/I/51zqrMyK5rL._SX300_SY300_QL70_FMwebp_.jpg",
+    "https://m.media-amazon.com/images/I/81BWchEsfWL._SX522_.jpg"
+  ],
+  "createdAt": "2023-08-07",
+  "updatedAt": "2023-08-07",
+  "promotion": "New arrival",
+  "subCategory": "Games"
+},
+{
+  "_id": {
+    "$oid": "66b5bb8478e899db8feee1c7"
+  },
+  "id": "64b8e77f7b4f0106c4f839fc",
+  "name": "Dark Souls",
+  "description": "Then, there was fire. Re-experience the genre-defining game that started it all. Return to Lordran in the beautifully remastered game in high definition, 60 fps with single-player or online multiplayer with dedicated servers. Includes the Artorias of the Abyss DLC.",
+  "price": 69.99,
+  "category": "Playstation",
+  "stock": 180,
+  "images": [
+    "https://m.media-amazon.com/images/I/71G4xW5VmxL._SX425_.jpg",
+    "https://m.media-amazon.com/images/I/61n2gYf3bzL._SX522_.jpg"
+  ],
+  "createdAt": "2023-08-07",
+  "updatedAt": "2023-08-07",
+  "promotion": "Sale",
+  "subCategory": "Games"
+},
+{
+  "_id": {
+    "$oid": "66b5bb8478e899db8feee1c8"
+  },
+  "id": "64b8e77f7b4f0106c4f839fd",
+  "name": "Super Mario Odyssey",
+  "description": "Join Mario on an epic adventure across the globe in Super Mario Odyssey. Discover new worlds and use Cappy's powers to save Princess Peach from Bowser.",
+  "price": 59.99,
+  "category": "Nintendo",
+  "stock": 350,
+  "images": [
+    "https://m.media-amazon.com/images/I/71ax+LpI8cL._SY500_.jpg",
+    "https://m.media-amazon.com/images/I/71QcLspsdEL._SX522_.jpg"
+  ],
+  "createdAt": "2023-08-07",
+  "updatedAt": "2023-08-07",
+  "promotion": "Best seller",
+  "subCategory": "Games"
+},
+{
+  "_id": {
+    "$oid": "66b5bb8478e899db8feee1c9"
+  },
+  "id": "64b8e77f7b4f0106c4f839fe",
+  "name": "God of War Ragnarök",
+  "description": "Embark on a new adventure with Kratos and Atreus in God of War Ragnarök. Experience the epic conclusion to the Norse saga with stunning visuals and intense combat.",
+  "price": 69.99,
+  "category": "Playstation",
+  "stock": 220,
+  "images": [
+    "https://m.media-amazon.com/images/I/817y77i7EFL._SX425_.jpg",
+    "https://m.media-amazon.com/images/I/81c0fBqu1KL._SX522_.jpg"
+  ],
+  "createdAt": "2023-08-07",
+  "updatedAt": "2023-08-07",
+  "promotion": "New arrival",
+  "subCategory": "Games"
+},
+{
+  "_id": {
+    "$oid": "66b5bb8478e899db8feee1ca"
+  },
+  "id": "64b8e77f7b4f0106c4f839ff",
+  "name": "Metroid Dread",
+  "description": "Discover the secrets of planet ZDR in Metroid Dread. Join Samus Aran on a thrilling mission to uncover the truth and face off against deadly enemies.",
+  "price": 59.99,
+  "category": "Nintendo",
+  "stock": 300,
+  "images": [
+    "https://m.media-amazon.com/images/I/519hC5FhsQL._SX300_SY300_QL70_FMwebp_.jpg",
+    "https://m.media-amazon.com/images/I/61Y224CIjsL._SX522_.jpg"
+  ],
+  "createdAt": "2023-08-07",
+  "updatedAt": "2023-08-07",
+  "promotion": "Sale",
+  "subCategory": "Games"
+},
+{
+  "_id": {
+    "$oid": "66b5bb8478e899db8feee1cb"
+  },
+  "id": "64b8e77f7b4f0106c4f83a00",
+  "name": "Cyberpunk 2077",
+  "description": "Immerse yourself in the futuristic world of Night City in Cyberpunk 2077. Experience a story-driven RPG with deep customization and action-packed gameplay.",
+  "price": 49.99,
+  "category": "PlayStation",
+  "stock": 100,
+  "images": [
+    "https://m.media-amazon.com/images/I/51Ul97yMsbL._SX300_SY300_QL70_FMwebp_.jpg",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKXXXiCtnIS-aBpq2eIvgTZfX7K29XdL33Rw&s"
+  ],
+  "createdAt": {
+    "$date": "2023-08-07T00:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-07T00:00:00.000Z"
+  },
+  "promotion": "Best seller",
+  "subCategory": "Accessories",
+  "reviews": []
+},
+{
+  "_id": {
+    "$oid": "66b6143e1df2d33ff96ef011"
+  },
+  "id": "64b8e77f7b4f0106c4f839fc",
+  "name": "Nintendo Switch Pro Controller",
+  "description": "An ergonomic pro controller for the Nintendo Switch with enhanced grip.",
+  "price": 69.99,
+  "category": "Nintendo",
+  "stock": 120,
+  "images": [
+    "https://bizweb.dktcdn.net/100/088/342/products/for-nintend-switch-pro-controller-bluetooth-wireless-gamepads-game-joystick-host-console-joypad-splatoon-2-xenoblade-jpg-q50-1ae162e6-2731-45e0-ab98-f80f2063654f.jpg?v=1554191513267",
+    "https://bizweb.dktcdn.net/100/088/342/products/48386090-519036491840133-4212677483545231360-n.jpg?v=1554191516647"
+  ],
+  "createdAt": "2024-08-09",
+  "updatedAt": "2024-08-09",
+  "subCategory": "Accessories"
+},
+{
+  "_id": {
+    "$oid": "66b6143e1df2d33ff96ef012"
+  },
+  "id": "64b8e77f7b4f0106c4f839fd",
+  "name": "PlayStation 5 DualSense Charging Station",
+  "description": "A charging station for PlayStation 5 DualSense controllers.",
+  "price": 29.99,
+  "category": "PlayStation",
+  "stock": 150,
+  "images": [
+    "https://media.direct.playstation.com/is/image/sierialto/DualSense-Charging-Station-Hero-1?$Background_Large$"
+  ],
+  "createdAt": "2024-08-09",
+  "updatedAt": "2024-08-09",
+  "subCategory": "Accessories"
+},
+{
+  "_id": {
+    "$oid": "66b6143e1df2d33ff96ef013"
+  },
+  "id": "64b8e77f7b4f0106c4f839fe",
+  "name": "Xbox Series X Controller Charger",
+  "description": "A charging dock for Xbox Series X controllers with LED indicators.",
+  "price": 34.99,
+  "category": "Xbox",
+  "stock": 140,
+  "images": [
+    "https://m.media-amazon.com/images/I/71l4WofnAyL._AC_SX466_PIbundle-2,TopRight,0,0_SH20_.jpg"
+  ],
+  "createdAt": "2024-08-09",
+  "updatedAt": "2024-08-09",
+  "subCategory": "Accessories"
+},
+{
+  "_id": {
+    "$oid": "66b6143e1df2d33ff96ef014"
+  },
+  "id": "64b8e77f7b4f0106c4f839ff",
+  "name": "Nintendo Switch Carrying Case",
+  "description": "A durable carrying case for the Nintendo Switch with space for games.",
+  "price": 24.99,
+  "category": "Nintendo",
+  "stock": 180,
+  "images": [
+    "https://m.media-amazon.com/images/I/71IJ6WpvHEL._AC_UY218_.jpg"
+  ],
+  "createdAt": "2024-08-09",
+  "updatedAt": "2024-08-09",
+  "subCategory": "Accessories"
+},
+{
+  "_id": {
+    "$oid": "66b6143e1df2d33ff96ef015"
+  },
+  "id": "64b8e77f7b4f0106c4f83a00",
+  "name": "PlayStation 4 Vertical Stand",
+  "description": "A vertical stand to keep your PlayStation 4 upright and cool.",
+  "price": 19.99,
+  "category": "PlayStation",
+  "stock": 160,
+  "images": [
+    "https://m.media-amazon.com/images/I/61GnDYqAXfL._AC_UY218_.jpg"
+  ],
+  "createdAt": "2024-08-09",
+  "updatedAt": "2024-08-09",
+  "subCategory": "Accessories"
+},
+{
+  "_id": {
+    "$oid": "66b6143e1df2d33ff96ef016"
+  },
+  "id": "64b8e77f7b4f0106c4f83a01",
+  "name": "Xbox One Wireless Controller Battery Pack",
+  "description": "Rechargeable battery pack for Xbox One wireless controllers.",
+  "price": 24.99,
+  "category": "Xbox",
+  "stock": 200,
+  "images": [
+    "https://m.media-amazon.com/images/I/61N76Mf00EL._AC_UY218_.jpg"
+  ],
+  "createdAt": "2024-08-09",
+  "updatedAt": "2024-08-09",
+  "subCategory": "Accessories"
+},
+{
+  "_id": {
+    "$oid": "66b6143e1df2d33ff96ef017"
+  },
+  "id": "64b8e77f7b4f0106c4f83a02",
+  "name": "PlayStation 5 Cooling Stand",
+  "description": "A cooling stand for PlayStation 5 to keep it cool during intense gaming sessions.",
+  "price": 39.99,
+  "category": "PlayStation",
+  "stock": 130,
+  "images": [
+    "https://m.media-amazon.com/images/I/71DiGaQ+1CL._AC_UY218_.jpg"
+  ],
+  "createdAt": "2024-08-09",
+  "updatedAt": "2024-08-09",
+  "subCategory": "Accessories"
+},
+{
+  "_id": {
+    "$oid": "66b6143e1df2d33ff96ef018"
+  },
+  "id": "64b8e77f7b4f0106c4f83a03",
+  "name": "Nintendo Switch Screen Protector",
+  "description": "A tempered glass screen protector for Nintendo Switch to prevent scratches.",
+  "price": 14.99,
+  "category": "Nintendo",
+  "stock": 220,
+  "images": [
+    "https://m.media-amazon.com/images/I/31aUWYuDwqL._AC_UY218_.jpg"
+  ],
+  "createdAt": "2024-08-09",
+  "updatedAt": "2024-08-09",
+  "subCategory": "Accessories"
+},
+{
+  "_id": {
+    "$oid": "66b6143e1df2d33ff96ef019"
+  },
+  "id": "64b8e77f7b4f0106c4f83a04",
+  "name": "Xbox Series X Storage Expansion Card",
+  "description": "1TB storage expansion card for Xbox Series X for additional game space.",
+  "price": 219.99,
+  "category": "Xbox",
+  "stock": 90,
+  "images": [
+    "https://m.media-amazon.com/images/I/81Vt8SIjsZL._AC_UY218_.jpg"
+  ],
+  "createdAt": "2024-08-09",
+  "updatedAt": "2024-08-09",
+  "subCategory": "Accessories"
+},
+{
+  "_id": {
+    "$oid": "66b6143e1df2d33ff96ef01a"
+  },
+  "id": "64b8e77f7b4f0106c4f83a05",
+  "name": "PlayStation 4 Headset",
+  "description": "A high-quality headset for PlayStation 4 with built-in microphone.",
+  "price": 49.99,
+  "category": "PlayStation",
+  "stock": 170,
+  "images": [
+    "https://m.media-amazon.com/images/I/61CGHv6kmWL._AC_UY218_.jpg"
+  ],
+  "createdAt": "2024-08-09",
+  "updatedAt": "2024-08-09",
+  "subCategory": "Accessories"
+},
+{
+  "_id": {
+    "$oid": "66b6143e1df2d33ff96ef01b"
+  },
+  "id": "64b8e77f7b4f0106c4f83a06",
+  "name": "Nintendo Switch Joy-Con Charging Dock",
+  "description": "A charging dock for Nintendo Switch Joy-Con controllers.",
+  "price": 29.99,
+  "category": "Nintendo",
+  "stock": 140,
+  "images": [
+    "https://m.media-amazon.com/images/I/81smQ-QGpNL._AC_UY218_.jpg"
+  ],
+  "createdAt": "2024-08-09",
+  "updatedAt": "2024-08-09",
+  "subCategory": "Accessories"
+},
+{
+  "_id": {
+    "$oid": "66b6143e1df2d33ff96ef01c"
+  },
+  "id": "64b8e77f7b4f0106c4f83a07",
+  "name": "Microsoft Xbox Elite Series 2 Controller",
+  "description": "A premium Xbox Elite Series 2 controller with adjustable tension thumbsticks.",
+  "price": 179.99,
+  "category": "Xbox",
+  "stock": 110,
+  "images": [
+    "https://m.media-amazon.com/images/I/71Ctjgq6inL._AC_UY218_.jpg"
+  ],
+  "createdAt": "2024-08-09",
+  "updatedAt": "2024-08-09",
+  "subCategory": "Accessories"
+},
+{
+  "_id": {
+    "$oid": "66b6143e1df2d33ff96ef01d"
+  },
+  "id": "64b8e77f7b4f0106c4f83a08",
+  "name": "PlayStation 5 Media Remote",
+  "description": "A media remote for easy control of media playback on PlayStation 5.",
+  "price": 29.99,
+  "category": "PlayStation",
+  "stock": 160,
+  "images": [
+    "https://m.media-amazon.com/images/I/613Ot5vWzAL._AC_SX466_.jpg"
+  ],
+  "createdAt": "2024-08-09",
+  "updatedAt": "2024-08-09",
+  "subCategory": "Accessories"
+},
+{
+  "_id": {
+    "$oid": "66bacbf2f4c8208afbdfb9b5"
+  },
+  "id": "64b8e77f7b4f0106c4f839eb",
+  "name": "Super Mario Figurine",
+  "description": "Super Mario model: Wonderful decoration for Super Mario fans: 1 set of 5 characters - Material: PVC. – Dimensions: width 2.5cm – height 5.5cm. -- The upper and lower body parts can be removed and exchanged",
+  "price": 25.99,
+  "category": "Others",
+  "stock": 5,
+  "images": [
+    "https://bizweb.dktcdn.net/100/088/342/products/mo-hinh-super-mario-mh427-1-600x600.jpg?v=1697360576113"
+  ],
+  "createdAt": {
+    "$date": "2024-08-12T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-12T10:00:00.000Z"
+  },
+  "promotion": "Limited Edition",
+  "subCategory": "N/A"
+},
+{
+  "_id": {
+    "$oid": "66bacc09f4c8208afbdfb9b7"
+  },
+  "id": "64b8e77f7b4f0106c4f839ec",
+  "name": "Legend of Zelda Collectible Card",
+  "description": "A rare collectible card featuring iconic characters from The Legend of Zelda series, perfect for fans and card collectors.",
+  "price": 10.99,
+  "category": "Others",
+  "stock": 2,
+  "images": [
+    "https://m.media-amazon.com/images/I/61Zq68NGGWL._AC_UF894,1000_QL80_.jpg"
+  ],
+  "createdAt": {
+    "$date": "2024-08-12T11:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-12T11:00:00.000Z"
+  },
+  "promotion": "New arrival",
+  "subCategory": "N/A"
+},
+{
+  "_id": {
+    "$oid": "66bacc13f4c8208afbdfb9b9"
+  },
+  "id": "64b8e77f7b4f0106c4f839ee",
+  "name": "Pokémon TCG Booster Pack",
+  "description": "A booster pack of the Pokémon Trading Card Game, containing 10 random cards to enhance your collection.",
+  "price": 4.99,
+  "category": "Others",
+  "stock": 500,
+  "images": [
+    "https://product.hstatic.net/1000190106/product/p9504_188-85981-bulk_01_1b4bee697d2d4e75b3de9fb75e7bd0f7.jpg"
+  ],
+  "createdAt": {
+    "$date": "2024-08-12T13:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-12T13:00:00.000Z"
+  },
+  "promotion": "New arrival",
+  "subCategory": "N/A"
+},
+{
+  "_id": {
+    "$oid": "66bacc1ff4c8208afbdfb9bb"
+  },
+  "id": "64b8e77f7b4f0106c4f839ef",
+  "name": "Final Fantasy VII Keychain Set",
+  "description": "A set of four keychains featuring characters from Final Fantasy VII, made from high-quality metal.",
+  "price": 14.99,
+  "category": "Others",
+  "stock": 0,
+  "images": [
+    "https://i.ebayimg.com/images/g/vYkAAOSwatNkzgDs/s-l1200.jpg"
+  ],
+  "createdAt": {
+    "$date": "2024-08-12T14:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-12T14:00:00.000Z"
+  },
+  "promotion": "Limited Edition",
+  "subCategory": "N/A"
+},
+{
+  "_id": {
+    "$oid": "66bacc78f4c8208afbdfb9bd"
+  },
+  "id": "64b8e77f7b4f0106c4f8sui1",
+  "name": "Sui mochidoru",
+  "description": "Sui.",
+  "price": 999.99,
+  "category": "Others",
+  "stock": 250,
+  "images": [
+    "https://i.ebayimg.com/images/g/c-8AAOSw2EJkIn6X/s-l1200.jpg",
+    "https://pbs.twimg.com/media/FtbUg1YagAENRAi.png"
+  ],
+  "createdAt": {
+    "$date": "2024-08-12T14:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-12T14:00:00.000Z"
+  },
+  "promotion": "Limited Edition",
+  "subCategory": "N/A"
+},
+{
+  "_id": {
+    "$oid": "66bae83e2ebab4c945a80fb5"
+  },
+  "name": "PS4 Pro 1TB OM2 bundle 2 game",
+  "description": "PlayStation4 and 2 games included",
+  "price": 359.99,
+  "category": "PlayStation",
+  "subCategory": "Consoles",
+  "stock": 4,
+  "images": [
+    "https://bizweb.dktcdn.net/100/088/342/products/0b6fae88dc2950c609456f19bfda4032-1.jpg?v=1613881871363"
+  ],
+  "createdAt": {
+    "$date": "2024-08-13T04:59:42.644Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-13T04:59:42.644Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66baf9a8f097363a77e8b26e"
+  },
+  "name": "PS5 Standard Slim Edition",
+  "description": "PS5 Standard Slim Edition SONY VN.  Warranty: 12 months+ * Customers who buy PS5 and sign for MY SONY will receive an additional 12 months, a total of 24 months of SONY VN warranty",
+  "price": 589.99,
+  "category": "PlayStation",
+  "subCategory": "Consoles",
+  "stock": 5,
+  "images": [
+    "https://bizweb.dktcdn.net/100/088/342/products/ps5-2tay-copy.jpg?v=1717744091307",
+    "https://bizweb.dktcdn.net/100/088/342/products/ps5-slim-d2585c69-4a81-4e53-848e-a210782ef189-930a8c39-b5d8-47db-a125-5379daf73214.png?v=1717744091307"
+  ],
+  "reviews": [],
+  "createdAt": {
+    "$date": "2024-08-13T06:14:00.590Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-13T06:14:00.593Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66bb02ac2ae4000f23010c27"
+  },
+  "name": "Gameboy GBA Disk special edition",
+  "description": "2nd product",
+  "price": 6.99,
+  "category": "Others",
+  "subCategory": "N/A",
+  "stock": 15,
+  "images": [
+    "https://bizweb.dktcdn.net/100/088/342/products/53309096-2823870584304940-2978353317748408320-n.jpg?v=1582601157437",
+    "https://bizweb.dktcdn.net/100/088/342/products/31891063-2027296904185128-1306360632890621952-n-copy.jpg?v=1582601157437",
+    "https://bizweb.dktcdn.net/100/088/342/products/32202927-2029794030602082-2330913532184363008-n.jpg?v=1582601157437"
+  ],
+  "reviews": [],
+  "createdAt": {
+    "$date": "2024-08-13T06:52:28.493Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-13T06:52:28.496Z"
+  },
+  "__v": 0
+}]
