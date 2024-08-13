@@ -24,7 +24,7 @@ router.post('/', productController.add_product);
 router.put('/:id', productController.update_product);
 
 // Update Product quantity
-router.put('/update-quantity', productController.update_quantity);
+router.post('/products/update-quantities', updateProductQuantities);
 
 // Delete A Product
 router.delete('/:id', productController.delete_a_product);

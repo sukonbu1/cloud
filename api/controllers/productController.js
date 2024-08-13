@@ -123,25 +123,48 @@ const search_products = async (req, res) => {
   }
 };
 
-const update_quantity = async (req, res) => {
-  const { id, quantity } = req.body;
+const updateProductQuantities = async (req, res) => {
+  const { cartItems } = req.body;
 
   try {
-    // Find the product by ID and update the quantity
-    const product = await Product.findById(id);
-    if (!product) {
-      return res.status(404).json({ message: 'Product not found' });
+    if (!cartItems || !Array.isArray(cartItems)) {
+      return res.status(400).json({ message: 'Invalid cart items' });
     }
 
-    product.quantity = quantity; // Update the quantity as needed
-    await product.save();
+    const session = await Product.startSession();
+    session.startTransaction();
 
-    res.status(200).json({ message: 'Product quantity updated successfully' });
+    for (const item of cartItems) {
+      const { _id, quantity } = item;
+
+      const product = await Product.findById(_id).session(session);
+      if (!product) {
+        throw new Error(`Product with ID ${_id} not found`);
+      }
+
+      if (product.stock < quantity) {
+        throw new Error(`Not enough stock for product ${product.name}`);
+      }
+
+      product.stock -= quantity;
+      await product.save({ session });
+    }
+
+    await session.commitTransaction();
+    session.endSession();
+
+    res.status(200).json({ message: 'Product quantities updated successfully' });
   } catch (error) {
-    console.error('Error updating product quantity:', error);
+    if (session) {
+      await session.abortTransaction();
+      session.endSession();
+    }
+    console.error('Error updating product quantities:', error.message);
     res.status(500).json({ message: 'Internal server error' });
   }
 };
+
+
 
 module.exports = {
   view_all_product,
@@ -152,5 +175,5 @@ module.exports = {
   delete_a_product,
   search_products,
   products_categorized,
-  update_quantity,
+  updateProductQuantities,
 };
