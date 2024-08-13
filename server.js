@@ -30,7 +30,6 @@ app.use('/users', userRoutes);
 
 app.listen(process.env.PORT || port, () => {
   console.log(`Server started on port ${port}`);
+  console.log("Port value:", process.env.PORT);
+
 });
-
-
-// Run web app in terminal : npm start
