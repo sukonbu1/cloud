@@ -9,7 +9,7 @@ const port = 8000 ;
 const app = express();
 
 // 1) Configure mongoose
-const db = "mongodb://127.0.0.1:27017/OnlineStore"; // OnlineStore: database name
+const db = "mongodb+srv://huyndgch221065:8b5VJiXjv2fTKvSa@cluster0.8w7eq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"; 
 mongoose.connect(db, {
   useNewUrlParser: true,
   useUnifiedTopology: true
