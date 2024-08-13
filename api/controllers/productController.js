@@ -137,7 +137,11 @@ const updateProductQuantities = async (req, res) => {
     for (const item of cartItems) {
       const { _id, quantity } = item;
 
-      const product = await Product.findById(_id).session(session);
+      // Log to verify _id is valid
+      console.log(`Processing item with _id: ${_id}`);
+
+      const productId = mongoose.Types.ObjectId(_id); // Convert to ObjectId
+      const product = await Product.findById(productId).session(session);
       if (!product) {
         throw new Error(`Product with ID ${_id} not found`);
       }
