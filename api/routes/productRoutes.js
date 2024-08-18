@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const productController = require('../controllers/productController');
+const { authMiddleware, authorizeRoles } = require('../../middleware/authMiddleware');
 
 // View All Products
 router.get('/', productController.view_all_product);
@@ -18,19 +19,15 @@ router.get('/category/:category/:subCategory', productController.products_catego
 router.get('/:id', productController.view_a_product);
 
 // Add Product
-router.post('/', productController.add_product);
+router.post('/', authMiddleware, authorizeRoles('admin'), productController.add_product);
 
 // Update Product
-router.put('/:id', productController.update_product);
+router.put('/:id', authMiddleware, authorizeRoles('admin'), productController.update_product);
 
 // Update Product quantity
-router.post('/products/update-quantities', productController.updateProductQuantities);
+router.put('/update-quantity', authMiddleware, authorizeRoles('admin'), productController.update_quantity);
 
 // Delete A Product
-router.delete('/:id', productController.delete_a_product);
-
-// Delete All Products
-router.delete('/', productController.delete_all_product);
-
+router.delete('/:id', authMiddleware, authorizeRoles('admin'), productController.delete_a_product);
 
 module.exports = router;

@@ -4,6 +4,7 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const productRoutes = require('./api/routes/productRoutes');
 const userRoutes = require('./api/routes/userRoutes');
+require('dotenv').config();
 
 const port = 8000 ;
 const app = express();

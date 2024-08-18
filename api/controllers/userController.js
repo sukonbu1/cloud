@@ -1,18 +1,19 @@
 const bcrypt = require('bcryptjs');
 const User = require('../models/userModel');
+const jwt = require('jsonwebtoken');
 
 exports.register = async (req, res) => {
   const { username, password, role } = req.body;
 
   // Validate input fields
   if (!username || !password || !role) {
-      return res.status(400).json({ msg: 'Please provide all required fields' });
+    return res.status(400).json({ message: 'Please provide all required fields' });
   }
 
   // Check if username already exists
   let user = await User.findOne({ username: username.toLowerCase() });
   if (user) {
-    return res.status(400).json({ msg: 'User already exists' });
+    return res.status(400).json({ message: 'User already exists' });
   }
 
   // Create new user
@@ -26,36 +27,43 @@ exports.register = async (req, res) => {
   const salt = await bcrypt.genSalt(10);
   user.password = await bcrypt.hash(password, salt);
 
+  // Create a token
+  const token = jwt.sign(
+    { id: user._id, username: user.username, role: user},
+    process.env.JWT_SECRET,
+  );
+
   await user.save();
 
-  // Return user data
-  res.json({ user });
+  // Return user data and token
+  res.json({ token, user });
 };
-
 
 exports.login = async (req, res) => {
   try {
-      const { username, password } = req.body;
-      const user = await User.findOne({ username: username.toLowerCase() });
+    const { username, password } = req.body;
+    const user = await User.findOne({ username: username.toLowerCase() });
 
-      if (!user) {
-          return res.status(404).json({ message: 'User not found' });
-      }
+    if (!user) {
+      return res.status(404).json({ message: 'User not found' });
+    }
 
-      const isMatch = await bcrypt.compare(password, user.password);
+    // Check password
+    const isMatch = await bcrypt.compare(password, user.password);
+    if (!isMatch) {
+      return res.status(400).json({ message: 'Invalid credentials' });
+    }
 
-      if (!isMatch) {
-          return res.status(401).json({ message: 'Invalid credentials' });
-      }
+    // Create a token
+    const token = jwt.sign(
+      { id: user._id, username: user.username , role: user.role},
+      process.env.JWT_SECRET,
+    );
 
-      // Ensure that the response includes the role
-      res.json({
-          user: {
-              username: user.username,
-              role: user.role // Ensure role is included here
-          },
-      });
-  } catch (error) {
-      res.status(500).json({ message: 'Server error' });
+    // Return the token
+    res.json({ token, user });
+  } catch (err) {
+    console.error(err);
+    res.status(500).send('Server error');
   }
 };
